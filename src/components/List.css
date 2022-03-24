@@ -1,0 +1,15 @@
+.List {
+  margin: auto;
+  max-width: 20rem;
+}
+
+.List__item {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.List__item:hover {
+  /* border: 4px solid green; */
+  box-shadow: inset 0 0 0 5px black, inset 0 0 0 10px white;
+}
